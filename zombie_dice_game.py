@@ -1,9 +1,3 @@
-'''
-Aluno: Manuel Alejandro Gonzalez Valdes
-Curso: Análise e Desenvolvimento de Sistemas
-Entrega da ATP - jogo Zombie Dice completo
-'''
-
 #Importando o módulo random para sortear os dados e as faces
 
 import random
@@ -112,3 +106,4 @@ while not fim_de_jogo:
     else:
         print(f"Vocês devoraram todos os cérebros da região. {lider_zumbi} é o líder dos zumbis!")
         marcador(jogadores)
+        
